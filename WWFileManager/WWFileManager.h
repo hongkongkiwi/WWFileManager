@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface FCFileManager : NSObject
+@interface WWFileManager : NSObject
 
 +(id)attributeOfItemAtPath:(NSString *)path forKey:(NSString *)key;
 +(id)attributeOfItemAtPath:(NSString *)path forKey:(NSString *)key error:(NSError **)error;

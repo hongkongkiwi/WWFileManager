@@ -5,9 +5,9 @@
 //  Copyright (c) 2014 Fabio Caccamo. All rights reserved.
 //
 
-#import "FCFileManager.h"
+#import "WWFileManager.h"
 
-@implementation FCFileManager
+@implementation WWFileManager
 
 
 +(NSMutableArray *)absoluteDirectories
@@ -376,7 +376,7 @@
 
 +(NSString *)pathForApplicationSupportDirectoryWithPath:(NSString *)path
 {
-    return [[FCFileManager pathForApplicationSupportDirectory] stringByAppendingPathComponent:path];
+    return [[WWFileManager pathForApplicationSupportDirectory] stringByAppendingPathComponent:path];
 }
 
 
@@ -398,7 +398,7 @@
 
 +(NSString *)pathForCachesDirectoryWithPath:(NSString *)path
 {
-    return [[FCFileManager pathForCachesDirectory] stringByAppendingPathComponent:path];
+    return [[WWFileManager pathForCachesDirectory] stringByAppendingPathComponent:path];
 }
 
 
@@ -420,7 +420,7 @@
 
 +(NSString *)pathForDocumentsDirectoryWithPath:(NSString *)path
 {
-    return [[FCFileManager pathForDocumentsDirectory] stringByAppendingPathComponent:path];
+    return [[WWFileManager pathForDocumentsDirectory] stringByAppendingPathComponent:path];
 }
 
 
@@ -442,7 +442,7 @@
 
 +(NSString *)pathForLibraryDirectoryWithPath:(NSString *)path
 {
-    return [[FCFileManager pathForLibraryDirectory] stringByAppendingPathComponent:path];
+    return [[WWFileManager pathForLibraryDirectory] stringByAppendingPathComponent:path];
 }
 
 
@@ -454,7 +454,7 @@
 
 +(NSString *)pathForMainBundleDirectoryWithPath:(NSString *)path
 {
-    return [[FCFileManager pathForMainBundleDirectory] stringByAppendingPathComponent:path];
+    return [[WWFileManager pathForMainBundleDirectory] stringByAppendingPathComponent:path];
 }
 
 
@@ -488,7 +488,7 @@
 
 +(NSString *)pathForTemporaryDirectoryWithPath:(NSString *)path
 {
-    return [[FCFileManager pathForTemporaryDirectory] stringByAppendingPathComponent:path];
+    return [[WWFileManager pathForTemporaryDirectory] stringByAppendingPathComponent:path];
 }
 
 
